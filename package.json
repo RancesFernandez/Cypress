@@ -1,0 +1,22 @@
+{
+  "name": "automatizacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RancesFernandez/Cypress.git"
+  },
+  "author": "Rances",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RancesFernandez/Cypress/issues"
+  },
+  "homepage": "https://github.com/RancesFernandez/Cypress#readme",
+  "devDependencies": {
+    "cypress": "^8.5.0"
+  }
+}
