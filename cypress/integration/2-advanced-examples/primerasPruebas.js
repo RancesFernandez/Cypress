@@ -9,7 +9,7 @@ describe('Primer conjunto de casos de pruebas', function () {
 
     //caso de prueba 1
 
-    /*it('Contabilizar la cantidad de elementos en la seccion de pagina principal', function () {
+    it('Contabilizar la cantidad de elementos en la seccion de pagina principal', function () {
         // cy.visit("http://automationpractice.com/index.php")
 
         //cy.get('#homefeatured .product-container').should('have.length', 7)
@@ -88,7 +88,7 @@ describe('Primer conjunto de casos de pruebas', function () {
 
         cy.get('.cart_navigation > .button > span').click()
 
-        cy.get('#email').type('rancesfernandezwunderman@gmail.com')
+        cy.get('#email').type('rances@mailinator.com')
 
         cy.get('#passwd').type('C@rlosranc3s')
 
@@ -107,6 +107,6 @@ describe('Primer conjunto de casos de pruebas', function () {
         cy.get('.cheque-indent').should('contain.text', 'Your order on My Store is complete.')
 
     })
-*/
+
 
 })

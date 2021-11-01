@@ -2,7 +2,7 @@
 
 
 
-//Suite de casos de pruebas avanzados
+//Suite de casos de pruebas data driven
 describe('Segundo conjunto de casos de pruebas avanzadas', function () {
     before(function () {
         cy.fixture('example').then(function (datos) {
