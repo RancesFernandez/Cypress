@@ -15,15 +15,16 @@ describe('Tercer feature de casos avanzados', function () {
 
         cy.get('#menu ul a:contains("Phones & PDAs")').click()
 
-        cy.addToCart(this.datos.phone1)
-        cy.addToCart(this.datos.phone2)
-        cy.addToCart(this.datos.phone3)
+        this.datos.articulo.forEach(function (articulo) {
+            cy.addToCart(articulo)
+            //cy.pause()
+        })
 
         cy.get('.btn-inverse').click()
 
-        cy.verificamosElementoEnCarritoDD(this.datos.phone1)
-        cy.verificamosElementoEnCarritoDD(this.datos.phone2)
-        cy.verificamosElementoEnCarritoDD(this.datos.phone3)
-    })
+        this.datos.articulo.forEach(function (articulo) {
+            cy.verificamosElementoEnCarritoDD(articulo)
 
+        })
+    })
 })
